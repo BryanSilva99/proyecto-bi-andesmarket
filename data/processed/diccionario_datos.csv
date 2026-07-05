@@ -1,0 +1,31 @@
+tabla;campo;tipo;rol;descripcion
+dim_cliente;id_cliente;string;PK;Identificador unico del cliente
+dim_cliente;nombre;string;;Nombre sintetico del cliente
+dim_cliente;sexo;string;;Sexo declarado F/M
+dim_cliente;fecha_nacimiento;date;;Fecha de nacimiento sintetica
+dim_cliente;distrito;string;;Distrito o ciudad de residencia
+dim_cliente;fecha_alta;date;;Fecha de afiliacion al programa
+dim_cliente;segmento_programa;string;;Nivel AndesPlus
+dim_producto;id_producto;string;PK;Identificador unico del producto
+dim_producto;nombre;string;;Nombre sintetico del producto
+dim_producto;categoria;string;;Categoria homologada
+dim_producto;subcategoria;string;;Subcategoria del producto
+dim_producto;marca;string;;Marca sintetica
+dim_producto;precio_lista;float;;Precio regular
+dim_producto;costo;float;;Costo unitario estimado
+dim_tienda;id_tienda;string;PK;Identificador unico de tienda
+dim_tienda;canal;string;;Canal fisico u online
+dim_tiempo;fecha;date;PK;Fecha calendario
+dim_promocion;id_promocion;string;PK;Identificador de promocion
+fact_ventas;id_venta;string;Degenerate;Identificador de boleta/transaccion
+fact_ventas;fecha;date;FK;Fecha de venta
+fact_ventas;id_cliente;string;FK;Cliente que compra
+fact_ventas;id_producto;string;FK;Producto vendido
+fact_ventas;id_tienda;string;FK;Tienda o canal de venta
+fact_ventas;id_promocion;string;FK;Promocion aplicada
+fact_ventas;cantidad;float;Medida;Unidades vendidas
+fact_ventas;precio_unitario;float;Medida;Precio unitario aplicado
+fact_ventas;descuento;float;Medida;Porcentaje de descuento
+fact_ventas;importe;float;Medida;Venta neta
+fact_ventas;costo_total;float;Medida;Costo total de la linea
+fact_ventas;margen;float;Medida;Margen bruto de la linea

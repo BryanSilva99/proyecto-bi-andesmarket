@@ -1,0 +1,7 @@
+tabla;filas;columnas;duplicados;nulos_total;claves_huerfanas_producto
+Dim_Cliente;5000;7;0;250;
+Dim_Producto;500;7;0;20;
+Dim_Tienda;15;5;0;0;
+Dim_Tiempo;730;7;0;0;
+Dim_Promocion;41;6;0;2;
+Fact_Ventas;60900;9;878;3655;304.0

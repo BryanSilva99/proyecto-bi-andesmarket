@@ -1,0 +1,16 @@
+id_tienda;nombre;canal;region;ciudad
+T001;AndesMarket Miraflores;fisico;Lima;Lima
+T002;AndesMarket San Isidro;fisico;Lima;Lima
+T003;AndesMarket Surco;fisico;Lima;Lima
+T004;AndesMarket San Miguel;fisico;Lima;Lima
+T005;AndesMarket Los Olivos;fisico;Lima;Lima
+T006;AndesMarket Callao;fisico;Callao;Callao
+T007;AndesMarket Arequipa;fisico;Sur;Arequipa
+T008;AndesMarket Cusco;fisico;Sur;Cusco
+T009;AndesMarket Trujillo;fisico;Norte;Trujillo
+T010;AndesMarket Piura;fisico;Norte;Piura
+T011;AndesMarket Chiclayo;fisico;Norte;Chiclayo
+T012;AndesMarket Huancayo;fisico;Centro;Huancayo
+T013;AndesMarket Ica;fisico;Sur;Ica
+T014;AndesMarket Cajamarca;fisico;Norte;Cajamarca
+T015;AndesMarket Online;online;Nacional;Online

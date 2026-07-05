@@ -1,0 +1,501 @@
+id_producto;nombre;categoria;subcategoria;marca;precio_lista;costo
+P0001;Bizcocho Andes 001;Panaderia;Bizcocho;Andes;11.66;9.2
+P0002;Queso Inti 002;LACTEOS;Queso;Ayni;15.66;10.76
+P0003;Desodorante Andes 003;Cuidado personal;Desodorante;Sol;36.13;22.39
+P0004;Desinfectante Sol 004;Limpieza;Desinfectante;Inti;6.5;4.48
+P0005;Gaseosa Sol 005;Bebidas;Gaseosa;Valle;16.03;11.2
+P0006;Frutos secos Andes 006;Snacks;Frutos secos;Premium;15.11;8.93
+P0007;Queso Premium 007;LACTEOS;Queso;Valle;26.98;16.15
+P0008;Aceite Valle 008;Abarrotes;Aceite;Kantu;12.54;7.94
+P0009;Papas Valle 009;Snacks;Papas;Sol;14.24;10.39
+P0010;Lavavajilla Inti 010;Limpieza;Lavavajilla;Norte;31.58;22.02
+P0011;Bizcocho Ayni 011;Panaderia;Bizcocho;Premium;24.34;13.92
+P0012;Lavavajilla Valle 012;Limpieza;Lavavajilla;Valle;20.36;14.65
+P0013;Tomate Norte 013;Frutas y verduras;Tomate;Premium;17.14;10.82
+P0014;Chocolates Kantu 014;Snack;Chocolates;Premium;17.72;11.37
+P0015;Papa Inti 015;Frutas y verduras;Papa;Ayni;22.56;14.97
+P0016;Hamburguesa Premium 016;Congelados;Hamburguesa;Kantu;55.75;40.89
+P0017;Shampoo Sol 017;Cuidado personal;Shampoo;Premium;6.28;4.14
+P0018;Hamburguesa Kantu 018;Congelados;Hamburguesa;Sol;16.47;11.14
+P0019;Gaseosa Valle 019;Bebidas;Gaseosa;Andes;19.95;14.4
+P0020;Yogurt Ayni 020;Lacteos;Yogurt;Ayni;33.08;22.7
+P0021;Desodorante Ayni 021;Cuidado personal;Desodorante;Ayni;15.85;10.28
+P0022;Tostadas Valle 022;Panaderia;Tostadas;Premium;10.24;6.8
+P0023;Fideos Premium 023;Abarrotes;Fideos;Ayni;24.74;19.75
+P0024;Gaseosa Norte 024;Bebidas;Gaseosa;Kantu;20.26;14.59
+P0025;Papas Ayni 025;SNACKS;Papas;Kantu;16.45;9.92
+P0026;Pan molde Andes 026;Panaderia;Pan molde;Valle;27.3;20.87
+P0027;Fideos Inti 027;ABARROTES;Fideos;Ayni;32.97;24.56
+P0028;Keke Premium 028;Panaderia;Keke;Valle;27.14;21.81
+P0029;Suavizante Inti 029;Limpieza;Suavizante;Premium;16.19;12.13
+P0030;Bizcocho Sol 030;Panaderia;Bizcocho;Andes;31.11;20.8
+P0031;Pasta dental Andes 031;Cuidado personal;Pasta dental;Andes;26.05;18.02
+P0032;Lavavajilla Valle 032;Limpieza;Lavavajilla;Inti;17.29;11.02
+P0033;Aceite Kantu 033;Abarrotes;Aceite;Andes;21.87;13.95
+P0034;Arroz Inti 034;Abarote;Arroz;Andes;22.22;16.79
+P0035;Shampoo Inti 035;Cuidado personal;Shampoo;Andes;27.39;16.54
+P0036;Papa Valle 036;Frutas y verduras;Papa;Inti;30.25;24.42
+P0037;Detergente Premium 037;Limpieza;Detergente;Sol;12.05;8.07
+P0038;Pan molde Ayni 038;Panaderia;Pan molde;Inti;32.03;25.33
+P0039;Platano Sol 039;Frutas y verduras;Platano;Andes;15.02;9.51
+P0040;Leche Valle 040;Lacteos;Leche;Valle;25.0;15.32
+P0041;Pizza Inti 041;Congelados;Pizza;Andes;13.14;7.73
+P0042;Arroz Sol 042;Abarrotes;Arroz;Sol;8.79;5.54
+P0043;Shampoo Inti 043;Cuidado personal;Shampoo;Sol;29.15;23.38
+P0044;Lavavajilla Kantu 044;Limpieza;Lavavajilla;Ayni;19.03;14.33
+P0045;Detergente Valle 045;Limpieza;Detergente;Norte;38.52;28.44
+P0046;Aceite Norte 046;Abarrotes;Aceite;Sol;10.79;6.62
+P0047;Arroz Inti 047;Abarrotes;Arroz;Ayni;22.16;13.57
+P0048;Desinfectante Andes 048;Limpieza;Desinfectante;Valle;13.93;8.63
+P0049;Bizcocho Norte 049;Panaderia;Bizcocho;Sol;38.8;24.43
+P0050;Leche Kantu 050;;Leche;Andes;32.14;18.51
+P0051;Manzana Premium 051;Frutas y verduras;Manzana;Inti;13.83;10.03
+P0052;Mantequilla Andes 052;lácteos;Mantequilla;Ayni;46.42;36.31
+P0053;Verduras congeladas Inti 053;Congelados;Verduras congeladas;Premium;9.66;6.21
+P0054;Papa Premium 054;Frutas y verduras;Papa;Valle;22.74;13.77
+P0055;Embutidos Andes 055;Carnes;Embutidos;Ayni;59.83;38.45
+P0056;Fideos Valle 056;Abarrotes;Fideos;Valle;28.49;16.68
+P0057;Agua Kantu 057;Bebidas;Agua;Kantu;23.64;14.49
+P0058;Fideos Valle 058;Abarrotes;Fideos;Valle;13.93;10.74
+P0059;Conservas Premium 059;Abarrotes;Conservas;Andes;39.15;22.89
+P0060;Papas Sol 060;Snacks;Papas;Inti;18.22;12.73
+P0061;Pan molde Andes 061;Panaderia;Pan molde;Kantu;25.58;14.43
+P0062;Yogurt Valle 062;Lacteos;Yogurt;Andes;10.37;7.85
+P0063;Tostadas Valle 063;Panaderia;Tostadas;Valle;19.33;13.76
+P0064;Bizcocho Andes 064;;Bizcocho;Inti;23.18;17.62
+P0065;Desodorante Sol 065;Cuidado personal;Desodorante;Kantu;8.06;4.44
+P0066;Shampoo Inti 066;Cuidado Personal;Shampoo;Premium;36.59;25.64
+P0067;Manzana Premium 067;Frutas y verduras;Manzana;Valle;8.95;5.28
+P0068;Jugo Valle 068;Bebdia;Jugo;Kantu;26.86;21.45
+P0069;Chocolates Premium 069;Snacks;Chocolates;Ayni;17.79;9.96
+P0070;Agua Ayni 070;Bebidas;Agua;Ayni;8.34;6.73
+P0071;Frutos secos Valle 071;Snacks;Frutos secos;Premium;18.85;10.7
+P0072;Pasta dental Kantu 072;Cuidado personal;Pasta dental;Sol;35.95;28.23
+P0073;Tostadas Sol 073;Panaderia;Tostadas;Sol;36.33;25.04
+P0074;Gaseosa Norte 074;Bebidas;Gaseosa;Kantu;26.49;15.48
+P0075;Chocolates Valle 075;Snacks;Chocolates;Andes;3.98;2.8
+P0076;Platano Norte 076;Frutas y verduras;Platano;Valle;10.82;6.48
+P0077;Fideos Ayni 077;Abarrotes;Fideos;Premium;26.88;19.27
+P0078;Verduras congeladas Kantu 078;;Verduras congeladas;Kantu;16.32;10.06
+P0079;Shampoo Andes 079;Cuidado personal;Shampoo;Sol;13.97;10.65
+P0080;Desinfectante Sol 080;;Desinfectante;Sol;20.84;12.82
+P0081;Pasta dental Kantu 081;Cuidado personal;Pasta dental;Norte;23.11;16.96
+P0082;Gaseosa Premium 082;Bebidas;Gaseosa;Andes;23.13;13.46
+P0083;Res Inti 083;Carnes;Res;Sol;17.3;13.25
+P0084;Shampoo Norte 084;Cuidado personal;Shampoo;Premium;37.77;21.84
+P0085;Galletas Ayni 085;Snacks;Galletas;Andes;14.32;11.16
+P0086;Galletas Ayni 086;Snacks;Galletas;Premium;16.84;11.32
+P0087;Pollo Inti 087;Carnes;Pollo;Ayni;6.19;4.45
+P0088;Chocolates Norte 088;Snack;Chocolates;Inti;12.82;9.79
+P0089;Papas Premium 089;Snacks;Papas;Ayni;27.27;22.02
+P0090;Manzana Inti 090;Frutas y verduras;Manzana;Inti;23.38;17.29
+P0091;Yogurt Valle 091;Lacteos;Yogurt;Kantu;13.6;8.54
+P0092;Energizante Valle 092;Bebidas;Energizante;Ayni;32.7;22.43
+P0093;Chocolates Premium 093;Snacks;Chocolates;Valle;16.53;13.22
+P0094;Gaseosa Kantu 094;Bebdia;Gaseosa;Premium;7.93;4.57
+P0095;Mantequilla Andes 095;Lacteos;Mantequilla;Norte;32.19;22.5
+P0096;Aceite Andes 096;Abarrotes;Aceite;Inti;12.33;10.08
+P0097;Galletas Inti 097;Snacks;Galletas;Inti;17.76;11.44
+P0098;Aceite Inti 098;Abarote;Aceite;Valle;11.12;8.61
+P0099;Fideos Inti 099;Abarrotes;Fideos;Norte;24.42;15.16
+P0100;Conservas Ayni 100;Abarote;Conservas;Valle;19.53;12.01
+P0101;Tomate Inti 101;Frutas y verduras;Tomate;Ayni;17.7;11.68
+P0102;Embutidos Sol 102;Carnes;Embutidos;Ayni;17.49;12.52
+P0103;Keke Norte 103;Panaderia;Keke;Inti;17.15;10.37
+P0104;Arroz Andes 104;ABARROTES;Arroz;Ayni;18.33;12.04
+P0105;Embutidos Andes 105;Carnes;Embutidos;Ayni;25.93;18.95
+P0106;Agua Andes 106;Bebidas;Agua;Andes;14.62;8.9
+P0107;Keke Valle 107;Panaderia;Keke;Sol;17.53;12.92
+P0108;Mantequilla Premium 108;Lacteos;Mantequilla;Norte;20.39;12.42
+P0109;Fideos Norte 109;Abarrotes;Fideos;Norte;33.4;25.61
+P0110;Platano Premium 110;Frutas y verduras;Platano;Valle;11.57;8.99
+P0111;Arroz Premium 111;ABARROTES;Arroz;Kantu;16.75;11.4
+P0112;Lavavajilla Inti 112;Limpieza;Lavavajilla;Ayni;29.6;19.68
+P0113;Conservas Norte 113;ABARROTES;Conservas;Inti;49.08;40.07
+P0114;Galletas Valle 114;Snacks;Galletas;Norte;13.82;10.17
+P0115;Fideos Sol 115;Abarrotes;Fideos;Ayni;17.21;11.52
+P0116;Jugo Valle 116;Bebidas;Jugo;Inti;34.76;19.75
+P0117;Arroz Sol 117;Abarrotes;Arroz;Inti;29.34;16.19
+P0118;Agua Ayni 118;BEBIDAS ;Agua;Premium;19.69;10.85
+P0119;Tomate Valle 119;Frutas y verduras;Tomate;Norte;8.85;7.23
+P0120;Conservas Norte 120;Abarrotes;Conservas;Kantu;58.7;43.71
+P0121;Res Valle 121;Carnes;Res;Inti;40.69;33.12
+P0122;Gaseosa Andes 122;Bebidas;Gaseosa;Norte;12.2;7.19
+P0123;Galletas Sol 123;Snacks;Galletas;Ayni;14.59;10.26
+P0124;Lavavajilla Inti 124;Limpieza;Lavavajilla;Valle;12.04;9.68
+P0125;Pizza Inti 125;;Pizza;Premium;20.61;15.68
+P0126;Mantequilla Kantu 126;Lacteos;Mantequilla;Sol;20.02;14.58
+P0127;Suavizante Sol 127;Limpieza;Suavizante;Andes;23.41;18.35
+P0128;Res Kantu 128;Carnes;Res;Norte;60.74;49.7
+P0129;Conservas Inti 129;Abarrotes;Conservas;Sol;20.12;13.71
+P0130;Aceite Inti 130;abarrotes ;Aceite;Ayni;20.93;16.39
+P0131;Fideos Premium 131;Abarrotes;Fideos;Valle;45.18;34.13
+P0132;Lavavajilla Valle 132;Limpieza;Lavavajilla;Ayni;15.66;9.35
+P0133;Conservas Andes 133;Abarrotes;Conservas;Andes;24.21;16.01
+P0134;Aceite Norte 134;abarrotes ;Aceite;Inti;106.13;82.96
+P0135;Cerdo Sol 135;Carnes;Cerdo;Kantu;12.83;7.39
+P0136;Leche Valle 136;Lacteos;Leche;Valle;31.89;24.74
+P0137;Platano Valle 137;Frutas y verduras;Platano;Norte;20.98;12.58
+P0138;Aceite Kantu 138;Abarrotes;Aceite;Sol;14.02;11.25
+P0139;Desodorante Premium 139;Cuidado personal;Desodorante;Valle;31.47;18.36
+P0140;Cerdo Sol 140;Carnes;Cerdo;Andes;7.31;5.04
+P0141;Manzana Andes 141;Frutas y verduras;Manzana;Premium;28.85;18.19
+P0142;Keke Premium 142;Panaderia;Keke;Ayni;19.51;11.7
+P0143;Aceite Andes 143;Abarrotes;Aceite;Premium;10.52;6.22
+P0144;Chocolates Norte 144;Snacks;Chocolates;Norte;34.68;26.35
+P0145;Jabon Kantu 145;Cuidado personal;Jabon;Norte;38.12;25.24
+P0146;Platano Premium 146;Frutas y verduras;Platano;Sol;26.55;14.77
+P0147;Pollo Sol 147;Carnes;Pollo;Premium;14.12;10.16
+P0148;Papas Ayni 148;Snacks;Papas;Kantu;6.23;3.81
+P0149;Agua Ayni 149;Bebidas;Agua;Andes;25.07;14.66
+P0150;Detergente Kantu 150;Limpieza;Detergente;Kantu;56.87;34.88
+P0151;Arroz Kantu 151;Abarrotes;Arroz;Andes;12.57;7.54
+P0152;Chocolates Valle 152;Snacks;Chocolates;Andes;17.0;9.78
+P0153;Keke Inti 153;Panaderia;Keke;Andes;12.5;7.49
+P0154;Fideos Norte 154;Abarrotes;Fideos;Ayni;20.11;15.79
+P0155;Yogurt Norte 155;lácteos;Yogurt;Valle;14.44;7.94
+P0156;Chocolates Kantu 156;Snacks;Chocolates;Norte;25.21;16.73
+P0157;Manzana Valle 157;Frutas y verduras;Manzana;Ayni;15.76;11.76
+P0158;Fideos Sol 158;Abarrotes;Fideos;Sol;21.64;16.74
+P0159;Papa Valle 159;Frutas y verduras;Papa;Premium;11.38;7.85
+P0160;Pasta dental Ayni 160; cuidado personal;Pasta dental;Valle;28.06;17.06
+P0161;Conservas Premium 161;Abarrotes;Conservas;Andes;12.73;7.62
+P0162;Aceite Norte 162;Abarrotes;Aceite;Premium;35.93;26.29
+P0163;Keke Sol 163;Panaderia;Keke;Inti;38.65;28.24
+P0164;Gaseosa Kantu 164;Bebidas;Gaseosa;Kantu;19.77;12.54
+P0165;Jugo Inti 165;Bebidas;Jugo;Andes;27.81;22.53
+P0166;Manzana Valle 166;Frutas y verduras;Manzana;Andes;17.33;13.09
+P0167;Arroz Sol 167;Abarrotes;Arroz;Inti;38.05;21.09
+P0168;Bizcocho Sol 168;Panaderia;Bizcocho;Inti;15.71;12.45
+P0169;Energizante Sol 169;Bebidas;Energizante;Andes;10.99;6.63
+P0170;Pasta dental Kantu 170;Cuidado personal;Pasta dental;Ayni;29.4;19.56
+P0171;Chocolates Valle 171;Snacks;Chocolates;Sol;22.68;13.83
+P0172;Papa Andes 172;Frutas y verduras;Papa;Inti;25.23;20.53
+P0173;Lavavajilla Inti 173;Limpieza;Lavavajilla;Inti;19.68;16.12
+P0174;Helado Sol 174;Congelados;Helado;Kantu;24.61;19.54
+P0175;Suavizante Kantu 175;Limpieza;Suavizante;Inti;18.38;12.71
+P0176;Jugo Ayni 176;Bebidas;Jugo;Norte;18.14;11.23
+P0177;Frutos secos Valle 177;Snacks;Frutos secos;Norte;16.36;11.89
+P0178;Pizza Premium 178;Congelados;Pizza;Sol;21.75;15.6
+P0179;Tomate Sol 179;Frutas y verduras;Tomate;Ayni;17.92;11.39
+P0180;Pasta dental Norte 180;Cuidado personal;Pasta dental;Sol;21.52;16.36
+P0181;Frutos secos Inti 181;Snacks;Frutos secos;Valle;29.15;22.02
+P0182;Gaseosa Valle 182;Bebidas;Gaseosa;Kantu;22.4;17.03
+P0183;Shampoo Valle 183;Cuidado personal;Shampoo;Kantu;15.87;9.82
+P0184;Detergente Norte 184;Limpieza;Detergente;Norte;20.83;13.99
+P0185;Papas Norte 185; snacks ;Papas;Kantu;18.91;10.98
+P0186;Keke Inti 186;Panaderia;Keke;Andes;11.69;6.79
+P0187;Mantequilla Andes 187;Lacteos;Mantequilla;Premium;15.98;12.45
+P0188;Embutidos Inti 188;Carnes;Embutidos;Premium;75.02;55.92
+P0189;Papa Premium 189;Frutas y verduras;Papa;Sol;54.0;41.42
+P0190;Jugo Norte 190;Bebidas;Jugo;Andes;12.73;8.44
+P0191;Energizante Andes 191;Bebidas;Energizante;Valle;30.75;24.97
+P0192;Galletas Andes 192;Snacks;Galletas;Premium;17.08;10.78
+P0193;Pasta dental Andes 193;Cuidado personal;Pasta dental;Ayni;17.8;9.96
+P0194;Papa Kantu 194;Frutas y verduras;Papa;Premium;17.93;10.86
+P0195;Res Ayni 195;Carnes;Res;Premium;19.4;13.03
+P0196;Leche Valle 196;Lacteos;Leche;Sol;23.48;15.65
+P0197;Embutidos Norte 197;Carnes;Embutidos;Sol;11.28;8.62
+P0198;Embutidos Premium 198;;Embutidos;Kantu;70.06;39.76
+P0199;Agua Norte 199;BEBIDAS ;Agua;Andes;57.27;34.78
+P0200;Arroz Norte 200;Abarrotes;Arroz;Andes;8.16;5.98
+P0201;Aceite Sol 201;Abarrotes;Aceite;Norte;26.83;15.6
+P0202;Pollo Kantu 202;Carnes;Pollo;Inti;42.42;31.77
+P0203;Frutos secos Inti 203;Snacks;Frutos secos;Kantu;19.65;12.91
+P0204;Detergente Andes 204;Limpieza;Detergente;Kantu;20.4;15.57
+P0205;Lavavajilla Norte 205;Limpieza;Lavavajilla;Sol;7.39;6.01
+P0206;Agua Ayni 206;Bebidas;Agua;Norte;43.32;35.06
+P0207;Aceite Premium 207;;Aceite;Premium;6.34;4.34
+P0208;Galletas Sol 208;Snacks;Galletas;Ayni;25.21;14.67
+P0209;Agua Norte 209; bebidas;Agua;Andes;21.77;13.71
+P0210;Energizante Sol 210;Bebidas;Energizante;Norte;20.67;11.71
+P0211;Shampoo Inti 211;Cuidado personal;Shampoo;Ayni;16.34;9.89
+P0212;Jugo Andes 212;Bebidas;Jugo;Norte;26.4;18.68
+P0213;Leche Norte 213; Lacteos;Leche;Inti;34.44;21.41
+P0214;Queso Valle 214;Lacteos;Queso;Sol;10.96;8.21
+P0215;Chocolates Premium 215; snacks ;Chocolates;Kantu;47.91;27.02
+P0216;Arroz Inti 216;Abarrotes;Arroz;Premium;28.91;19.44
+P0217;Pan molde Kantu 217;Panaderia;Pan molde;Ayni;13.63;8.1
+P0218;Agua Sol 218;Bebidas;Agua;Inti;21.04;16.53
+P0219;Gaseosa Valle 219;Bebidas;Gaseosa;Sol;47.7;28.66
+P0220;Embutidos Premium 220;Carnes;Embutidos;Norte;12.77;9.16
+P0221;Chocolates Norte 221;Snacks;Chocolates;Kantu;16.92;12.54
+P0222;Frutos secos Andes 222;SNACKS;Frutos secos;Sol;13.6;8.33
+P0223;Shampoo Sol 223;Cuidado personal;Shampoo;Inti;29.0;18.08
+P0224;Conservas Inti 224;Abarrotes;Conservas;Valle;38.25;28.79
+P0225;Gaseosa Ayni 225;Bebdia;Gaseosa;Andes;8.03;4.64
+P0226;Lavavajilla Andes 226;Limpieza;Lavavajilla;Valle;8.57;6.65
+P0227;Frutos secos Inti 227;Snacks;Frutos secos;Valle;35.44;26.53
+P0228;Shampoo Norte 228;Cuidado personal;Shampoo;Andes;12.54;9.56
+P0229;Energizante Kantu 229;Bebidas;Energizante;Sol;47.87;32.24
+P0230;Papa Andes 230;Frutas y verduras;Papa;Andes;19.04;15.11
+P0231;Hamburguesa Sol 231;;Hamburguesa;Premium;16.61;9.57
+P0232;Pizza Inti 232;Congelados;Pizza;Inti;34.95;22.3
+P0233;Agua Ayni 233;Bebidas;Agua;Ayni;32.03;25.99
+P0234;Energizante Valle 234;Bebidas;Energizante;Ayni;23.61;19.31
+P0235;Pan molde Andes 235;Panaderia;Pan molde;Norte;9.72;7.43
+P0236;Jabon Andes 236; cuidado personal;Jabon;Sol;37.69;25.03
+P0237;Conservas Ayni 237;Abarrotes;Conservas;Inti;33.11;18.77
+P0238;Desodorante Ayni 238;Cuidado personal;Desodorante;Norte;24.39;18.87
+P0239;Pizza Ayni 239;Congelados;Pizza;Inti;26.88;17.48
+P0240;Jabon Kantu 240;Cuidado personal;Jabon;Kantu;21.93;15.16
+P0241;Arroz Ayni 241;Abarrotes;Arroz;Ayni;23.51;16.22
+P0242;Shampoo Valle 242;Cuidado personal;Shampoo;Ayni;22.22;12.97
+P0243;Conservas Inti 243;Abarrotes;Conservas;Valle;17.14;11.02
+P0244;Pasta dental Sol 244;Cuidado personal;Pasta dental;Sol;30.96;20.56
+P0245;Energizante Premium 245;Bebidas;Energizante;Kantu;19.12;15.52
+P0246;Galletas Sol 246;Snacks;Galletas;Valle;24.61;16.77
+P0247;Keke Ayni 247;Panaderia;Keke;Norte;19.97;11.42
+P0248;Mantequilla Valle 248;lácteos;Mantequilla;Valle;14.35;10.26
+P0249;Res Kantu 249;Carnes;Res;Kantu;13.37;9.57
+P0250;Chocolates Kantu 250;Snacks;Chocolates;Sol;22.82;15.37
+P0251;Res Kantu 251;;Res;Norte;27.88;20.99
+P0252;Leche Valle 252;Lacteos;Leche;Sol;22.13;17.28
+P0253;Agua Premium 253; bebidas;Agua;Andes;16.72;9.87
+P0254;Pollo Kantu 254;Carnes;Pollo;Andes;35.51;26.83
+P0255;Aceite Ayni 255;;Aceite;Andes;16.7;9.95
+P0256;Fideos Inti 256;Abarrotes;Fideos;Norte;33.55;27.09
+P0257;Jabon Andes 257;Cuidado personal;Jabon;Kantu;7.43;5.2
+P0258;Conservas Ayni 258;Abarrotes;Conservas;Valle;17.83;11.27
+P0259;Platano Premium 259;Frutas y verduras;Platano;Inti;38.83;30.54
+P0260;Energizante Ayni 260;BEBIDAS ;Energizante;Kantu;33.92;23.7
+P0261;Aceite Inti 261;Abarrotes;Aceite;Andes;11.84;6.72
+P0262;Gaseosa Sol 262;BEBIDAS ;Gaseosa;Inti;17.54;13.07
+P0263;Energizante Valle 263;Bebidas;Energizante;Sol;11.4;7.48
+P0264;Yogurt Valle 264;Lacteos;Yogurt;Sol;43.01;24.94
+P0265;Gaseosa Inti 265;BEBIDAS ;Gaseosa;Valle;27.04;17.41
+P0266;Leche Valle 266;Lacteos;Leche;Andes;36.07;22.81
+P0267;Suavizante Andes 267;Limpieza;Suavizante;Valle;24.77;14.04
+P0268;Platano Ayni 268;Frutas y verduras;Platano;Valle;14.46;8.74
+P0269;Verduras congeladas Norte 269;Congelados;Verduras congeladas;Andes;26.69;15.78
+P0270;Chocolates Premium 270;Snacks;Chocolates;Valle;11.18;6.42
+P0271;Papas Premium 271;Snacks;Papas;Ayni;7.58;5.11
+P0272;Queso Inti 272;Lacteos;Queso;Norte;17.42;12.48
+P0273;Aceite Ayni 273;Abarrotes;Aceite;Premium;31.58;24.26
+P0274;Aceite Kantu 274;Abarrotes;Aceite;Valle;13.25;9.56
+P0275;Desinfectante Premium 275;Limpieza;Desinfectante;Ayni;76.45;53.47
+P0276;Embutidos Premium 276;Carnes;Embutidos;Valle;39.8;23.7
+P0277;Pasta dental Valle 277;Cuidado personal;Pasta dental;Valle;17.01;9.78
+P0278;Res Ayni 278;Carnes;Res;Sol;25.79;17.15
+P0279;Aceite Norte 279;Abarrotes;Aceite;Norte;23.29;14.53
+P0280;Jabon Andes 280;Cuidado personal;Jabon;Norte;45.73;33.33
+P0281;Aceite Inti 281;Abarrotes;Aceite;Inti;33.22;21.82
+P0282;Desinfectante Sol 282;Limpieza;Desinfectante;Norte;20.29;13.18
+P0283;Res Sol 283;Carnes;Res;Inti;8.9;5.86
+P0284;Keke Valle 284;Panaderia;Keke;Premium;21.12;16.4
+P0285;Desinfectante Sol 285;Limpieza;Desinfectante;Kantu;22.88;16.47
+P0286;Res Inti 286;Carnes;Res;Sol;21.57;15.58
+P0287;Jabon Andes 287;Cuidado personal;Jabon;Inti;17.58;10.49
+P0288;Chocolates Andes 288;Snacks;Chocolates;Valle;16.69;9.7
+P0289;Lavavajilla Andes 289;;Lavavajilla;Andes;27.72;17.55
+P0290;Verduras congeladas Kantu 290;Congelados;Verduras congeladas;Premium;33.77;24.98
+P0291;Desodorante Valle 291;Cuidado personal;Desodorante;Norte;24.46;16.77
+P0292;Frutos secos Andes 292; snacks ;Frutos secos;Kantu;16.68;13.66
+P0293;Papas Ayni 293;Snacks;Papas;Sol;26.18;19.19
+P0294;Jabon Kantu 294;Cuidado personal;Jabon;Sol;21.98;12.14
+P0295;Mantequilla Norte 295;Lacteos;Mantequilla;Inti;10.17;7.62
+P0296;Embutidos Ayni 296;Carnes;Embutidos;Andes;15.11;10.38
+P0297;Detergente Premium 297;Limpieza;Detergente;Norte;6.28;4.72
+P0298;Pan molde Inti 298;;Pan molde;Sol;41.05;32.3
+P0299;Aceite Norte 299;Abarrotes;Aceite;Valle;19.22;12.45
+P0300;Detergente Inti 300;Limpieza;Detergente;Valle;24.07;15.3
+P0301;Pollo Norte 301;Carnes;Pollo;Ayni;34.86;23.37
+P0302;Agua Ayni 302;BEBIDAS ;Agua;Kantu;35.16;20.62
+P0303;Fideos Norte 303;Abarrotes;Fideos;Inti;23.52;18.63
+P0304;Chocolates Sol 304;Snack;Chocolates;Ayni;14.5;9.04
+P0305;Papas Premium 305;Snacks;Papas;Premium;11.79;8.01
+P0306;Lavavajilla Valle 306;Limpieza;Lavavajilla;Kantu;32.9;26.9
+P0307;Keke Sol 307;Panaderia;Keke;Norte;24.62;19.47
+P0308;Conservas Norte 308;;Conservas;Norte;23.71;17.87
+P0309;Conservas Norte 309;Abarrotes;Conservas;Andes;15.14;9.69
+P0310;Pasta dental Andes 310;Cuidado personal;Pasta dental;Kantu;18.92;10.68
+P0311;Aceite Norte 311;Abarrotes;Aceite;Norte;28.13;18.24
+P0312;Queso Kantu 312;Lacteos;Queso;Kantu;7.04;4.07
+P0313;Desodorante Andes 313;Cuidado personal;Desodorante;Andes;37.49;23.97
+P0314;Keke Premium 314;Panaderia;Keke;Kantu;20.5;13.65
+P0315;Shampoo Valle 315;Cuidado personal;Shampoo;Sol;16.1;10.27
+P0316;Desinfectante Andes 316;Limpieza;Desinfectante;Valle;13.21;9.24
+P0317;Aceite Ayni 317;;Aceite;Norte;18.12;14.13
+P0318;Bizcocho Norte 318;Panaderia;Bizcocho;Inti;22.4;16.97
+P0319;Tostadas Sol 319;Panaderia;Tostadas;Ayni;10.96;8.37
+P0320;Mantequilla Sol 320;;Mantequilla;Kantu;15.58;10.44
+P0321;Embutidos Kantu 321;Carnes;Embutidos;Inti;33.01;26.84
+P0322;Chocolates Kantu 322;Snacks;Chocolates;Sol;17.68;13.31
+P0323;Papa Sol 323;Frutas y verduras;Papa;Valle;20.24;13.78
+P0324;Pizza Andes 324;Congelados;Pizza;Sol;28.95;21.37
+P0325;Embutidos Ayni 325;Carnes;Embutidos;Inti;22.23;12.37
+P0326;Agua Norte 326;Bebidas;Agua;Kantu;12.98;8.05
+P0327;Hamburguesa Kantu 327;Congelados;Hamburguesa;Sol;42.91;26.7
+P0328;Keke Norte 328;Panaderia;Keke;Andes;11.69;7.62
+P0329;Pizza Ayni 329;Congelados;Pizza;Inti;16.33;12.18
+P0330;Detergente Premium 330;Limpieza;Detergente;Sol;55.69;36.36
+P0331;Frutos secos Norte 331;Snacks;Frutos secos;Inti;6.97;4.71
+P0332;Tostadas Sol 332;Panaderia;Tostadas;Andes;26.98;16.6
+P0333;Res Ayni 333;Carnes;Res;Norte;15.15;12.26
+P0334;Papa Premium 334;Frutas y verduras;Papa;Kantu;38.86;29.63
+P0335;Cerdo Norte 335;Carnes;Cerdo;Norte;20.5;12.89
+P0336;Res Sol 336;Carnes;Res;Premium;13.3;8.21
+P0337;Fideos Valle 337;Abarrotes;Fideos;Kantu;7.96;5.5
+P0338;Tostadas Inti 338;Panaderia;Tostadas;Premium;19.82;12.99
+P0339;Frutos secos Norte 339;Snacks;Frutos secos;Premium;9.41;6.92
+P0340;Frutos secos Andes 340;Snacks;Frutos secos;Valle;63.91;40.52
+P0341;Cerdo Premium 341;Carnes;Cerdo;Inti;9.66;7.44
+P0342;Hamburguesa Sol 342;Congelados;Hamburguesa;Andes;13.21;8.8
+P0343;Galletas Ayni 343;Snacks;Galletas;Sol;12.61;9.77
+P0344;Yogurt Sol 344; Lacteos;Yogurt;Andes;17.62;11.48
+P0345;Agua Sol 345;Bebidas;Agua;Valle;36.33;27.38
+P0346;Fideos Norte 346;abarrotes ;Fideos;Ayni;6.15;4.98
+P0347;Pasta dental Premium 347;Cuidado Personal;Pasta dental;Ayni;12.22;9.0
+P0348;Lavavajilla Kantu 348;Limpieza;Lavavajilla;Inti;29.06;19.08
+P0349;Aceite Norte 349;Abarrotes;Aceite;Inti;39.74;27.22
+P0350;Arroz Norte 350;Abarrotes;Arroz;Inti;19.9;14.74
+P0351;Leche Andes 351;Lacteos;Leche;Inti;39.93;23.99
+P0352;Lavavajilla Valle 352;Limpieza;Lavavajilla;Andes;15.72;11.43
+P0353;Fideos Ayni 353;Abarrotes;Fideos;Valle;23.18;18.54
+P0354;Queso Valle 354;Lacteos;Queso;Kantu;30.83;24.5
+P0355;Pollo Inti 355;Carnes;Pollo;Sol;18.88;11.52
+P0356;Bizcocho Valle 356;Panaderia;Bizcocho;Norte;36.74;24.56
+P0357;Papas Norte 357;Snacks;Papas;Valle;13.7;10.71
+P0358;Shampoo Sol 358;Cuidado personal;Shampoo;Inti;17.35;11.77
+P0359;Fideos Valle 359;Abarrotes;Fideos;Ayni;23.3;18.73
+P0360;Lavavajilla Inti 360;Limpieza;Lavavajilla;Ayni;23.83;14.97
+P0361;Helado Ayni 361;Congelados;Helado;Premium;34.76;25.9
+P0362;Lavavajilla Ayni 362;Limpieza;Lavavajilla;Ayni;6.0;3.71
+P0363;Detergente Sol 363;Limpieza;Detergente;Norte;17.31;13.22
+P0364;Cerdo Ayni 364;Carnes;Cerdo;Premium;31.94;25.45
+P0365;Cerdo Inti 365;Carnes;Cerdo;Kantu;37.12;29.53
+P0366;Arroz Premium 366;ABARROTES;Arroz;Ayni;25.09;18.84
+P0367;Keke Kantu 367;Panaderia;Keke;Premium;45.51;32.7
+P0368;Keke Kantu 368;;Keke;Valle;12.53;8.13
+P0369;Pan molde Valle 369;Panaderia;Pan molde;Sol;17.86;13.86
+P0370;Jabon Inti 370;Cuidado personal;Jabon;Norte;16.25;9.93
+P0371;Desinfectante Ayni 371;Limpieza;Desinfectante;Andes;46.79;26.76
+P0372;Res Sol 372;Carnes;Res;Kantu;11.51;7.32
+P0373;Agua Inti 373;Bebidas;Agua;Kantu;29.79;22.32
+P0374;Mantequilla Norte 374; Lacteos;Mantequilla;Kantu;25.83;19.23
+P0375;Platano Ayni 375;Frutas y verduras;Platano;Sol;26.41;16.76
+P0376;Suavizante Kantu 376;Limpieza;Suavizante;Ayni;23.96;19.1
+P0377;Pan molde Kantu 377;Panaderia;Pan molde;Sol;32.79;24.74
+P0378;Mantequilla Valle 378;Lacteos;Mantequilla;Valle;8.18;6.25
+P0379;Mantequilla Inti 379;lácteos;Mantequilla;Valle;13.6;8.66
+P0380;Desodorante Inti 380;CUIDADO PERSONAL ;Desodorante;Norte;41.93;23.22
+P0381;Galletas Ayni 381;Snacks;Galletas;Valle;27.63;18.35
+P0382;Mantequilla Sol 382;Lacteos;Mantequilla;Inti;36.67;27.84
+P0383;Papa Sol 383;Frutas y verduras;Papa;Inti;17.02;10.29
+P0384;Arroz Inti 384;ABARROTES;Arroz;Premium;40.42;28.62
+P0385;Yogurt Andes 385;Lacteos;Yogurt;Kantu;23.74;18.31
+P0386;Papas Andes 386;Snacks;Papas;Norte;7.9;5.59
+P0387;Leche Norte 387;Lacteos;Leche;Andes;57.28;31.74
+P0388;Pizza Premium 388;Congelados;Pizza;Norte;20.7;13.94
+P0389;Embutidos Valle 389;Carnes;Embutidos;Premium;47.44;28.69
+P0390;Pan molde Sol 390;Panaderia;Pan molde;Ayni;43.02;33.33
+P0391;Shampoo Valle 391;CUIDADO PERSONAL ;Shampoo;Valle;23.69;18.15
+P0392;Pizza Ayni 392;Congelados;Pizza;Premium;26.36;19.6
+P0393;Energizante Premium 393;Bebdia;Energizante;Sol;47.16;31.68
+P0394;Pan molde Norte 394;Panaderia;Pan molde;Valle;18.74;11.1
+P0395;Agua Inti 395;Bebidas;Agua;Norte;9.83;7.75
+P0396;Lavavajilla Sol 396;Limpieza;Lavavajilla;Inti;21.81;12.8
+P0397;Leche Valle 397;Lacteos;Leche;Inti;13.69;9.96
+P0398;Chocolates Ayni 398;Snacks;Chocolates;Inti;12.5;8.47
+P0399;Pizza Norte 399;Congelados;Pizza;Premium;54.82;30.67
+P0400;Pollo Norte 400;Carnes;Pollo;Andes;11.35;9.17
+P0401;Jabon Premium 401;Cuidado personal;Jabon;Sol;48.48;33.6
+P0402;Pasta dental Kantu 402;Cuidado personal;Pasta dental;Norte;6.86;4.4
+P0403;Shampoo Inti 403;Cuidado Personal;Shampoo;Kantu;16.0;12.97
+P0404;Papas Premium 404;Snacks;Papas;Andes;73.86;42.17
+P0405;Yogurt Andes 405;Lacteos;Yogurt;Kantu;15.66;12.12
+P0406;Fideos Valle 406;Abarrotes;Fideos;Norte;11.52;7.28
+P0407;Fideos Inti 407;Abarrotes;Fideos;Inti;18.88;10.44
+P0408;Pizza Andes 408;Congelados;Pizza;Ayni;68.42;37.74
+P0409;Suavizante Andes 409;Limpieza;Suavizante;Valle;30.59;23.24
+P0410;Helado Premium 410;Congelados;Helado;Sol;20.3;13.66
+P0411;Gaseosa Kantu 411;Bebidas;Gaseosa;Valle;31.73;19.67
+P0412;Tomate Premium 412;Frutas y verduras;Tomate;Kantu;24.53;19.67
+P0413;Desodorante Inti 413;Cuidado personal;Desodorante;Sol;13.86;8.08
+P0414;Arroz Sol 414;Abarrotes;Arroz;Kantu;22.24;15.93
+P0415;Conservas Valle 415;Abarrotes;Conservas;Valle;27.06;20.05
+P0416;Leche Norte 416;Lacteos;Leche;Norte;17.77;12.34
+P0417;Conservas Andes 417;Abarrotes;Conservas;Premium;12.89;8.56
+P0418;Platano Valle 418;Frutas y verduras;Platano;Premium;13.63;8.3
+P0419;Energizante Sol 419; bebidas;Energizante;Premium;11.35;6.63
+P0420;Platano Sol 420;;Platano;Kantu;49.45;39.61
+P0421;Frutos secos Premium 421;Snacks;Frutos secos;Andes;20.59;15.2
+P0422;Yogurt Kantu 422;Lacteos;Yogurt;Andes;38.64;29.3
+P0423;Suavizante Ayni 423;Limpieza;Suavizante;Norte;62.92;41.63
+P0424;Manzana Sol 424;Frutas y verduras;Manzana;Kantu;11.93;7.87
+P0425;Energizante Norte 425;BEBIDAS ;Energizante;Ayni;8.34;4.87
+P0426;Bizcocho Norte 426;Panaderia;Bizcocho;Ayni;11.67;8.59
+P0427;Platano Andes 427;Frutas y verduras;Platano;Ayni;21.61;12.74
+P0428;Aceite Kantu 428;Abarrotes;Aceite;Premium;44.58;27.09
+P0429;Energizante Sol 429;Bebidas;Energizante;Premium;7.77;4.98
+P0430;Pasta dental Ayni 430; cuidado personal;Pasta dental;Ayni;8.86;6.62
+P0431;Platano Andes 431;Frutas y verduras;Platano;Valle;11.72;8.82
+P0432;Papas Inti 432;Snack;Papas;Inti;16.72;11.78
+P0433;Desodorante Valle 433;CUIDADO PERSONAL ;Desodorante;Andes;14.57;9.01
+P0434;Desodorante Valle 434; cuidado personal;Desodorante;Inti;19.06;11.51
+P0435;Manzana Inti 435;Frutas y verduras;Manzana;Norte;23.83;14.02
+P0436;Arroz Norte 436;Abarrotes;Arroz;Ayni;13.89;9.33
+P0437;Queso Norte 437;lacteos ;Queso;Sol;18.16;13.3
+P0438;Frutos secos Norte 438;Snacks;Frutos secos;Sol;20.25;14.84
+P0439;Embutidos Inti 439;Carnes;Embutidos;Andes;30.72;23.25
+P0440;Papa Norte 440;Frutas y verduras;Papa;Premium;21.52;13.45
+P0441;Helado Sol 441;Congelados;Helado;Sol;11.75;9.35
+P0442;Manzana Sol 442;Frutas y verduras;Manzana;Valle;6.98;5.52
+P0443;Pasta dental Ayni 443;Cuidado personal;Pasta dental;Ayni;31.87;22.93
+P0444;Pizza Premium 444;Congelados;Pizza;Premium;26.04;18.86
+P0445;Detergente Valle 445;Limpieza;Detergente;Inti;16.69;9.58
+P0446;Chocolates Valle 446;Snacks;Chocolates;Ayni;26.04;15.68
+P0447;Verduras congeladas Premium 447;Congelados;Verduras congeladas;Inti;15.37;12.12
+P0448;Gaseosa Premium 448;Bebidas;Gaseosa;Valle;10.82;6.23
+P0449;Frutos secos Kantu 449;Snacks;Frutos secos;Valle;48.19;31.18
+P0450;Pizza Inti 450;Congelados;Pizza;Kantu;17.72;13.53
+P0451;Pasta dental Kantu 451;Cuidado personal;Pasta dental;Premium;29.16;20.4
+P0452;Queso Ayni 452;Lacteos;Queso;Inti;27.85;15.48
+P0453;Leche Norte 453;lácteos;Leche;Premium;13.62;9.75
+P0454;Queso Premium 454;Lacteos;Queso;Inti;9.62;5.67
+P0455;Desinfectante Kantu 455;Limpieza;Desinfectante;Norte;9.54;7.26
+P0456;Desinfectante Andes 456;Limpieza;Desinfectante;Inti;16.79;9.89
+P0457;Helado Kantu 457;Congelados;Helado;Sol;32.53;20.01
+P0458;Arroz Ayni 458;Abarrotes;Arroz;Andes;76.71;55.62
+P0459;Energizante Inti 459;Bebidas;Energizante;Inti;16.48;10.5
+P0460;Jabon Inti 460;Cuidado personal;Jabon;Premium;12.8;8.1
+P0461;Galletas Premium 461;Snacks;Galletas;Norte;14.11;11.29
+P0462;Embutidos Andes 462;Carnes;Embutidos;Premium;16.48;9.67
+P0463;Energizante Inti 463;Bebidas;Energizante;Kantu;23.12;17.35
+P0464;Cerdo Kantu 464;Carnes;Cerdo;Kantu;12.93;10.35
+P0465;Embutidos Sol 465;Carnes;Embutidos;Premium;15.52;11.62
+P0466;Mantequilla Kantu 466;Lacteos;Mantequilla;Inti;40.32;25.9
+P0467;Res Andes 467;Carnes;Res;Valle;10.03;7.44
+P0468;Agua Andes 468;Bebidas;Agua;Kantu;36.01;24.89
+P0469;Keke Kantu 469;Panaderia;Keke;Ayni;26.84;20.28
+P0470;Tostadas Ayni 470;Panaderia;Tostadas;Andes;12.97;7.88
+P0471;Cerdo Ayni 471;Carnes;Cerdo;Kantu;15.13;10.96
+P0472;Desinfectante Ayni 472;;Desinfectante;Premium;10.44;8.23
+P0473;Bizcocho Premium 473;Panaderia;Bizcocho;Sol;39.05;23.01
+P0474;Frutos secos Kantu 474;Snacks;Frutos secos;Premium;8.07;6.39
+P0475;Desinfectante Andes 475;Limpieza;Desinfectante;Ayni;31.05;22.21
+P0476;Gaseosa Inti 476;Bebidas;Gaseosa;Inti;47.72;30.53
+P0477;Chocolates Premium 477; snacks ;Chocolates;Sol;10.11;7.72
+P0478;Queso Kantu 478;Lacteos;Queso;Ayni;48.91;27.63
+P0479;Gaseosa Sol 479;BEBIDAS ;Gaseosa;Norte;16.36;9.86
+P0480;Aceite Ayni 480;;Aceite;Valle;31.52;18.09
+P0481;Keke Sol 481;Panaderia;Keke;Inti;18.85;14.77
+P0482;Tomate Norte 482;Frutas y verduras;Tomate;Kantu;29.56;19.4
+P0483;Frutos secos Valle 483;Snacks;Frutos secos;Norte;23.53;18.48
+P0484;Mantequilla Ayni 484; Lacteos;Mantequilla;Ayni;32.37;19.59
+P0485;Pan molde Sol 485;Panaderia;Pan molde;Sol;46.63;31.46
+P0486;Verduras congeladas Andes 486;Congelados;Verduras congeladas;Andes;16.9;11.98
+P0487;Jugo Andes 487;BEBIDAS ;Jugo;Norte;11.16;7.18
+P0488;Pasta dental Inti 488;;Pasta dental;Kantu;30.5;21.73
+P0489;Gaseosa Premium 489;Bebidas;Gaseosa;Kantu;14.78;10.25
+P0490;Queso Ayni 490;Lacteos;Queso;Sol;27.11;21.34
+P0491;Keke Valle 491;Panaderia;Keke;Kantu;24.02;18.02
+P0492;Jugo Inti 492;Bebidas;Jugo;Premium;28.25;19.29
+P0493;Energizante Sol 493;Bebidas;Energizante;Inti;10.77;7.88
+P0494;Bizcocho Valle 494;Panaderia;Bizcocho;Ayni;19.11;12.31
+P0495;Shampoo Valle 495;Cuidado personal;Shampoo;Valle;16.68;11.63
+P0496;Embutidos Norte 496;Carnes;Embutidos;Kantu;27.87;18.83
+P0497;Papa Sol 497;Frutas y verduras;Papa;Premium;22.16;14.37
+P0498;Tomate Kantu 498;Frutas y verduras;Tomate;Kantu;24.92;15.56
+P0499;Leche Norte 499;Lacteos;Leche;Sol;20.48;14.22
+P0500;Chocolates Ayni 500;Snacks;Chocolates;Andes;38.87;29.81
