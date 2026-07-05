@@ -4,6 +4,7 @@
 |---|---|---|---|---|---|
 | 1 | Datos | Disenar el caso de negocio y el modelo dimensional de AndesMarket S.A.C. | Asistente IA | Caso retail omnicanal, dimensiones Cliente, Producto, Tienda, Tiempo, Promocion y Fact_Ventas | Se adopto el caso recomendado por las instrucciones del curso |
 | 2 | Datos | Generar datos sinteticos reproducibles con problemas de calidad controlados | Asistente IA + Python | Datos reproducibles con semilla 42 y archivos CSV en `data/raw/` | Se implemento y valido en `notebooks/00_generacion_datos.ipynb` |
+| 3 | Clasificacion | Construir modelo de abandono de clientes con variables RFM, uso de promociones, canal y segmento | Asistente IA + Python | Notebook de clasificacion, metricas comparativas y predicciones para Power BI | Se corrigio la metodologia para usar ventana temporal y evitar fuga de informacion |
 
 ## Prompt maestro de generacion de datos
 
