@@ -13,7 +13,7 @@
 | Visualizacion | Desarrollo de graficos e insights en Python. | `notebooks/02_visualizacion.ipynb` | Pendiente | Se completara antes de construir el tablero en Power BI. |
 | Power BI | Carga del datamart, relaciones, medidas DAX y paginas del tablero. | `powerbi/AndesMarket.pbix` | Pendiente | Se realizara en maquina virtual con Power BI Desktop. |
 | Clasificacion | Construccion de tabla analitica de clientes, comparacion de modelos y exportacion de predicciones de abandono. | `notebooks/03_clasificacion.ipynb`, `data/processed/predicciones_abandono.csv` | 3 h | Se uso una ventana temporal para evitar fuga de informacion y se compararon Regresion Logistica, Arbol de Decision y Random Forest. |
-| Segmentacion | Segmentacion RFM con K-Means y exportacion de segmentos. | `notebooks/04_segmentacion.ipynb` | Pendiente | Se justificara el numero de clusters con codo y silueta. |
+| Segmentacion | Calculo de variables RFM, seleccion de k con codo/silueta, K-Means y exportacion de segmentos. | `notebooks/04_segmentacion.ipynb`, `data/processed/segmentos_clientes.csv` | 3 h | Se uso transformacion logaritmica para reducir efecto de outliers y obtener segmentos accionables. |
 | Asociacion | Reglas de asociacion para canasta de mercado. | `notebooks/05_asociacion.ipynb` | Pendiente | Se filtraran reglas relevantes por confianza y lift. |
 | Regresion | Pronostico de ventas/demanda y exportacion de real vs pronostico. | `notebooks/06_regresion.ipynb` | Pendiente | Se respetara el orden temporal en la validacion. |
 | Informe final | Consolidacion de resultados, conclusiones, etica y anexos. | `informe/Informe_PG_AndesMarket.pdf` | Pendiente | Se completara al terminar notebooks y Power BI. |
