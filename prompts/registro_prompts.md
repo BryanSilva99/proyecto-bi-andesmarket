@@ -7,6 +7,7 @@
 | 3 | Clasificacion | Construir modelo de abandono de clientes con variables RFM, uso de promociones, canal y segmento | Asistente IA + Python | Notebook de clasificacion, metricas comparativas y predicciones para Power BI | Se corrigio la metodologia para usar ventana temporal y evitar fuga de informacion |
 | 4 | Segmentacion | Segmentar clientes con RFM y K-Means, justificar k y proponer estrategias | Asistente IA + Python | Segmentos Campeones, Leales de valor, Ocasionales y En riesgo exportados para Power BI | Se aplico transformacion logaritmica para controlar outliers y mejorar interpretabilidad |
 | 5 | Asociacion | Descubrir reglas de canasta de mercado por boleta con Apriori | Asistente IA + Python | Reglas de asociacion con soporte, confianza y lift exportadas para Power BI | Se reforzo la generacion sintetica para que existan afinidades reales dentro de boletas |
+| 6 | Regresion | Pronosticar ventas diarias con validacion temporal y comparar modelos | Asistente IA + Python | Pronostico real vs estimado, metricas y archivo para Power BI | Se usaron rezagos y promedios moviles evitando division aleatoria |
 
 ## Prompt maestro de generacion de datos
 
