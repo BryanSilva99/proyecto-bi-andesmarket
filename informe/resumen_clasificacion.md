@@ -3,8 +3,8 @@
 - Ventana historica de variables: compras hasta 2025-10-01.
 - Definicion de abandono: cliente sin compras entre 2025-10-01 y 2025-12-30.
 - Mejor modelo: Arbol de Decision.
-- ROC-AUC del mejor modelo en prueba: 0.656.
-- Recall del mejor modelo en prueba: 0.593.
+- ROC-AUC del mejor modelo en prueba: 0.657.
+- Recall del mejor modelo en prueba: 0.597.
 
 ## Acciones recomendadas
 

@@ -19,9 +19,9 @@
 - [x] Contribucion individual.
 - [x] Resumenes tecnicos por parte.
 - [x] Guias Power BI por tecnica.
+- [x] Validar ejecucion de notebooks `00` a `06`.
 - [ ] Convertir `Informe_PG_AndesMarket.md` a Word/PDF institucional.
 - [ ] Insertar capturas del modelo y paginas Power BI en el informe final.
 - [ ] Revisar redaccion con palabras propias.
 - [ ] Preparar sustentacion oral.
 - [ ] Hacer commit final despues de ajustes finales.
-
