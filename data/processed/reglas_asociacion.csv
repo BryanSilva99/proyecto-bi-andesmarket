@@ -1,0 +1,9 @@
+regla;antecedente;consecuente;support;confidence;lift;propuesta_negocio;prioridad
+Congelados -> Carnes;Congelados;Carnes;0.1632446609216935;0.941850410722006;5.171361337619902;"Promocionar Carnes a clientes que compran Congelados; usar exhibicion conjunta, cupon cruzado o recomendacion online.";Muy alta
+Carnes -> Congelados;Carnes;Congelados;0.1632446609216935;0.8963176301172598;5.171361337619902;"Promocionar Congelados a clientes que compran Carnes; usar exhibicion conjunta, cupon cruzado o recomendacion online.";Muy alta
+Panaderia -> Lacteos;Panaderia;Lacteos;0.22367928062944922;0.967741935483871;4.053520442257457;"Promocionar Lacteos a clientes que compran Panaderia; usar exhibicion conjunta, cupon cruzado o recomendacion online.";Muy alta
+Lacteos -> Panaderia;Lacteos;Panaderia;0.22367928062944922;0.9369114877589454;4.053520442257457;"Promocionar Panaderia a clientes que compran Lacteos; usar exhibicion conjunta, cupon cruzado o recomendacion online.";Muy alta
+Abarrotes -> Limpieza;Abarrotes;Limpieza;0.2064068939677782;0.9362678450033991;4.022696198187496;"Promocionar Limpieza a clientes que compran Abarrotes; usar exhibicion conjunta, cupon cruzado o recomendacion online.";Muy alta
+Limpieza -> Abarrotes;Limpieza;Abarrotes;0.2064068939677782;0.8868319381841597;4.022696198187496;"Promocionar Abarrotes a clientes que compran Limpieza; usar exhibicion conjunta, cupon cruzado o recomendacion online.";Muy alta
+Snacks -> Bebidas;Snacks;Bebidas;0.32660172349194455;0.9520532983835737;2.7420203446484925;"Promocionar Bebidas a clientes que compran Snacks; usar exhibicion conjunta, cupon cruzado o recomendacion online.";Alta
+Bebidas -> Snacks;Bebidas;Snacks;0.32660172349194455;0.9406496169202546;2.7420203446484925;"Promocionar Snacks a clientes que compran Bebidas; usar exhibicion conjunta, cupon cruzado o recomendacion online.";Alta

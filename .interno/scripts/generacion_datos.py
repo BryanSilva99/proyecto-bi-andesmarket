@@ -9,7 +9,7 @@ from faker import Faker
 
 
 SEED = 42
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 RAW_DIR = PROJECT_ROOT / "data/raw"
 PROCESSED_DIR = PROJECT_ROOT / "data/processed"
 
@@ -209,6 +209,48 @@ def _pareto_ids(rng: np.random.Generator, ids: pd.Series, n: int, alpha: float) 
     return rng.choice(shuffled_ids, size=n, p=weights)
 
 
+def reforzar_afinidad_boletas(
+    ventas: pd.DataFrame,
+    productos: pd.DataFrame,
+    rng: np.random.Generator,
+) -> pd.DataFrame:
+    """Introduce pares de categorias dentro de la misma boleta para reglas de asociacion."""
+    out = ventas.copy()
+    productos_por_categoria = {
+        categoria: grupo[["id_producto", "precio_lista"]].to_dict("records")
+        for categoria, grupo in productos.groupby("categoria")
+    }
+    pares = [
+        ("Snacks", "Bebidas", 0.32),
+        ("Panaderia", "Lacteos", 0.22),
+        ("Abarrotes", "Limpieza", 0.20),
+        ("Carnes", "Congelados", 0.16),
+    ]
+
+    boletas = out.groupby("id_venta").filter(lambda x: len(x) >= 2)["id_venta"].drop_duplicates().to_numpy()
+    rng.shuffle(boletas)
+    inicio = 0
+
+    for cat_a, cat_b, pct in pares:
+        cantidad = int(len(boletas) * pct)
+        seleccion = boletas[inicio : inicio + cantidad]
+        inicio += cantidad
+        productos_a = productos_por_categoria[cat_a]
+        productos_b = productos_por_categoria[cat_b]
+
+        for id_venta in seleccion:
+            idx = out.index[out["id_venta"].eq(id_venta)].tolist()[:2]
+            if len(idx) < 2:
+                continue
+            prod_a = rng.choice(productos_a)
+            prod_b = rng.choice(productos_b)
+            for row_idx, prod in zip(idx, [prod_a, prod_b]):
+                out.loc[row_idx, "id_producto"] = prod["id_producto"]
+                out.loc[row_idx, "precio_unitario"] = round(float(prod["precio_lista"]) * float(rng.normal(1.0, 0.03)), 2)
+
+    return out
+
+
 def generar_fact_ventas(
     config: DataConfig,
     rng: np.random.Generator,
@@ -287,7 +329,9 @@ def generar_fact_ventas(
         extras = ventas.sample(faltantes, replace=True, random_state=SEED).copy()
         extras["id_venta"] = [f"V9{i:06d}" for i in range(1, faltantes + 1)]
         ventas = pd.concat([ventas, extras], ignore_index=True)
-    return ventas.head(config.n_ventas)
+    ventas = ventas.head(config.n_ventas).copy()
+    ventas = reforzar_afinidad_boletas(ventas, productos, rng)
+    return ventas
 
 
 def introducir_problemas_calidad(

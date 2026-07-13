@@ -6,6 +6,7 @@
 | 2 | Datos | Generar datos sinteticos reproducibles con problemas de calidad controlados | Asistente IA + Python | Datos reproducibles con semilla 42 y archivos CSV en `data/raw/` | Se implemento y valido en `notebooks/00_generacion_datos.ipynb` |
 | 3 | Clasificacion | Construir modelo de abandono de clientes con variables RFM, uso de promociones, canal y segmento | Asistente IA + Python | Notebook de clasificacion, metricas comparativas y predicciones para Power BI | Se corrigio la metodologia para usar ventana temporal y evitar fuga de informacion |
 | 4 | Segmentacion | Segmentar clientes con RFM y K-Means, justificar k y proponer estrategias | Asistente IA + Python | Segmentos Campeones, Leales de valor, Ocasionales y En riesgo exportados para Power BI | Se aplico transformacion logaritmica para controlar outliers y mejorar interpretabilidad |
+| 5 | Asociacion | Descubrir reglas de canasta de mercado por boleta con Apriori | Asistente IA + Python | Reglas de asociacion con soporte, confianza y lift exportadas para Power BI | Se reforzo la generacion sintetica para que existan afinidades reales dentro de boletas |
 
 ## Prompt maestro de generacion de datos
 

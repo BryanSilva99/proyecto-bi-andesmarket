@@ -6,7 +6,7 @@
 
 ## Perfil y estrategias
 
-- **Campeones**: 612 clientes, monto total S/ 1,363,762, recencia promedio 23.3 dias. Estrategia: Mantener beneficios exclusivos, acceso anticipado a promociones y seguimiento de satisfaccion.
-- **Leales de valor**: 1784 clientes, monto total S/ 663,736, recencia promedio 143.2 dias. Estrategia: Impulsar venta cruzada y paquetes premium para aumentar frecuencia sin sacrificar margen.
-- **Ocasionales**: 1159 clientes, monto total S/ 404,453, recencia promedio 14.9 dias. Estrategia: Activar campañas de recurrencia con cupones moderados y recomendaciones por categoria.
-- **En riesgo**: 1400 clientes, monto total S/ 149,369, recencia promedio 237.7 dias. Estrategia: Ejecutar acciones de recuperacion con ofertas personalizadas y comunicacion directa.
+- **Campeones**: 620 clientes, monto total S/ 1,491,003, recencia promedio 23.2 dias. Estrategia: Mantener beneficios exclusivos, acceso anticipado a promociones y seguimiento de satisfaccion.
+- **Leales de valor**: 1815 clientes, monto total S/ 727,873, recencia promedio 139.6 dias. Estrategia: Impulsar venta cruzada y paquetes premium para aumentar frecuencia sin sacrificar margen.
+- **Ocasionales**: 1176 clientes, monto total S/ 446,710, recencia promedio 15.0 dias. Estrategia: Activar campañas de recurrencia con cupones moderados y recomendaciones por categoria.
+- **En riesgo**: 1344 clientes, monto total S/ 154,460, recencia promedio 244.0 dias. Estrategia: Ejecutar acciones de recuperacion con ofertas personalizadas y comunicacion directa.

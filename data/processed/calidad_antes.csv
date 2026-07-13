@@ -4,4 +4,4 @@ dim_producto;500;7;0;20;
 dim_tienda;15;5;0;0;
 dim_tiempo;730;7;0;0;
 dim_promocion;41;6;0;2;
-fact_ventas;60900;9;878;3655;304.0
+fact_ventas;60900;9;878;3653;304.0
